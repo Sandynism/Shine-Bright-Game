@@ -5,7 +5,9 @@
 4. If player score === computer score, then player wins. 
 5. If player score > computer score, then player loses. 
 6. Game restarts upon win or loses 
-7. Have a wins and loses counter -->
+7. Have a wins and loses counter 
+8. Add on hover sound effects for gems
+9. Add hover shadow for reset button -->
 
 
 <!DOCTYPE HTML>
@@ -21,12 +23,6 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
     <title>Gem Collector</title>
-
-    <style>
-        body {
-            background-image: url("assets/images/prismbg.png")
-        }
-    </style>
 </head>
 
 <body>
@@ -71,7 +67,7 @@
             </div>
             <div class="col-lg-4 playerScore">
                     <h3>GEM-MASTER SCORE:</h3>
-                    <h3 id="gemScore"></h3>
+                    <h3 id="playerScore"></h3>
                 </div>
 			<div class="col-lg-4 score">
 				<div class="score">LOSSES: <span id="losses"></span></div>
