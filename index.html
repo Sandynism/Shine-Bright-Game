@@ -1,0 +1,96 @@
+<!-- Game Plan 
+1. Need to randomize a number 19 - 120 for the player to match 
+2. Need to set specific # of points 1 - 12 for each crystal; randomize every game (onclick event) 
+3. Update player score counter with total points 
+4. If player score === computer score, then player wins. 
+5. If player score > computer score, then player loses. 
+6. Game restarts upon win or loses 
+7. Have a wins and loses counter -->
+
+
+<!DOCTYPE HTML>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Markazi+Text|Old+Standard+TT" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <title>Gem Collector</title>
+
+    <style>
+        body {
+            background-image: url("assets/images/prismbg.png")
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Nav Bar -->
+    <div class="navbar navbar-light bg-light">
+        <h1 class="display-4">Shine Bright Like A Diamond</h1>
+        <button id="resetButton" class="btn btn-lg">
+            <i class="fa fa-diamond fa-2x" aria-hidden="true"></i>
+        </button>
+    </div>
+
+    <br>
+
+  <div class="container">
+        
+        <div class="header text-center">
+            <h3>SWEET SPOT:</h3>
+            <h3 id="compScore"></h3>
+        </div>
+
+        <div class="row">
+            <div class="col-md-3 col-lg-3 text-center">
+                <img class="gemImage img-responsive" id="gem1" src="assets/images/1-gemstone.png" alt="Gem 1"/>
+            </div>
+            <div class="col-md-3 col-lg-3 text-center">
+                <img class="gemImage img-responsive" id="gem2" src="assets/images/2-gemstone.png" alt="Gem 2"/>
+            </div>
+            <div class="col-md-3 col-lg-3 text-center">
+                <img class="gemImage img-responsive" id="gem3" src="assets/images/3-gemstone.png" alt="Gem 3"/>
+            </div>
+            <div class="col-md-3 col-lg-3 text-center">
+                <img class="gemImage img-responsive" id="gem4" src="assets/images/4-gemstone.png" alt="Gem 4"/>
+            </div>
+        </div>
+        
+        <!-- <div>Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
+
+
+		<div class="row text-center">
+			<div class="col-lg-4 score">
+                <div class="score">WINS: <span id="wins"></span></div> 
+            </div>
+            <div class="col-lg-4 playerScore">
+                    <h3>GEM-MASTER SCORE:</h3>
+                    <h3 id="gemScore"></h3>
+                </div>
+			<div class="col-lg-4 score">
+				<div class="score">LOSSES: <span id="losses"></span></div>
+			</div>
+        </div>
+        
+        <div class="row">
+            <div class="col-lg-12 directions">
+                <p>Each gem has a hidden value that will be revealed when clicked. Each click will add the gem's value to your gem-master score. You win the game if your gem-master score matches that of the sweet spot & lose if your gem-master score exceeds it. Shine bright, kiddos!</p>
+            </div>
+        </div>
+
+	</div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="assets/javascript/game.js"></script>
+
+    
+
+</body>
+
+</html>

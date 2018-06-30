@@ -1,0 +1,49 @@
+.display-4 {
+    margin: 0 auto;
+    font-family: "Gloria Hallelujah";
+    letter-spacing: 2px;
+    /* color: #38C9ED; */
+    /* color: #F36FAD; */
+    color: palevioletred;
+}
+
+.header {
+    padding: 10px;
+    font-family: "Gloria Hallelujah";
+    font-size: 30px;
+}
+
+.playerScore {
+    font-family: "Gloria Hallelujah";
+    font-size: 30px;
+    top: 175px;
+    text-align: center;
+}
+
+.score {
+    font-family: "Gloria Hallelujah";
+    font-size: 20px;
+    top: 200px;
+    text-align: center;
+}
+
+#gemScore {
+    font-display: bold;
+    color: turquoise;
+}
+
+.directions p {
+    font-family: "Markazi Text";
+    font-size: 25px;
+    letter-spacing: 2px;
+    position: absolute;
+    top: 225px;
+    padding: 20px;
+    text-align: center;
+}
+
+.gemImage {
+    position: relative;
+    top: 75px;
+
+}
