@@ -1,5 +1,7 @@
-# unit-4-game
+# Gem Collector
 
 Sandy Yeung
 
 jQuery Game
+
+![](assets/images/gem-collector-ss.png)
