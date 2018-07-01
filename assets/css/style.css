@@ -47,11 +47,11 @@ body {
 
 .directions p {
     font-family: "Markazi Text";
-    font-size: 25px;
+    font-size: 20px;
     letter-spacing: 2px;
     position: absolute;
-    top: 225px;
-    padding: 20px;
+    top: 200px;
+    padding: 5px;
     text-align: center;
 }
 
