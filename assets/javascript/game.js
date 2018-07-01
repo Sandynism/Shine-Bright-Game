@@ -7,6 +7,7 @@ $(document).ready(function () {
     let gem2val
     let gem3val
     let gem4val
+    let soundEffect = new Audio("assets/audio/gemEffect.wav")
 
     function randomNum() {
         //(max - min + 1(gets rid of 0)) + min
@@ -45,6 +46,8 @@ $(document).ready(function () {
 
     //updates player score, wins & losses counter
     $(".gemImage").on("click", function () {
+        soundEffect.play()
+
         if (playerScore >= compScore) {
             return
         }
