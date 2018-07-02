@@ -2,6 +2,6 @@
 
 Sandy Yeung
 
-<a href="https://Sandynism.github.io/unit-4-game">Click to play Gem Collector!</a>
+<a href="https://Sandynism.github.io/Shine-Bright-Game">Click to play Gem Collector!</a>
 
 ![](assets/images/gem-collector-ss.png)
